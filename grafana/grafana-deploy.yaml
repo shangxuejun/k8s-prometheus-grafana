@@ -1,8 +1,8 @@
-apiVersion: extensions/v1beta1
+apiVersion: extensions/v1
 kind: Deployment
 metadata:
   name: grafana-core
-  namespace: kube-system
+  namespace: prometheus-self
   labels:
     app: grafana
     component: core
