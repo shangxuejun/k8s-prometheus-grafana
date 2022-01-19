@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: grafana
-  namespace: kube-system
+  namespace: prometheus-self
   labels:
     app: grafana
     component: core
